@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B8A2 Fruit</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e2940fa905.js" crossorigin="anonymous"></script>
+  <style>
+    .font-lato{
+        font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+    }
+  </style>
 </head>
-<body>
-    
+<body class="font-lato container mx-auto">
+    <header>
+<nav class="flex justify-evenly mt-5 px-20 bg-orange-600 rounded-full items-center text-white ">
+    <div class="navbar-start">
+        <ul class="flex space-x-4">
+            <li>home</li>
+            <li>About us</li>
+            <li>Shop</li>
+            <li>All fruits</li>
+        </ul>
+    </div>
+    <div class="flex">
+        <img src="images/logo.png" alt="">
+        <h2 class="text-4xl font-bold">Fruit Burst</h2>
+    </div>
+    <div class="rounded-full bg-white">
+        <button class="flex items-center">
+            <input type="text" placeholder="Search here" class="input input-bordered input-accent w-full max-w-xs" />
+            <i class="fa-solid fa-magnifying-glass text-black"></i>
+        </button>
+    </div>
+</nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

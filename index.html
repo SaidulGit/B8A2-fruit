@@ -26,6 +26,7 @@
         font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lato', sans-serif;
     }
+
     
   </style>
 </head>
@@ -44,14 +45,14 @@ font-family: 'Lato', sans-serif;
         <img src="images/logo.png" alt="">
         <h2 class="text-4xl font-bold">Fruit Burst</h2>
     </div>
-    <div class="rounded-full bg-white">
-        <button class="flex items-center">
-            <input type="text" placeholder="Search here" class="input input-bordered input-accent w-full max-w-xs" />
+    <div class="rounded-full bg-white p-1">
+        <button class="flex items-center border-0">
+            <input type="text" placeholder="Search here"  />
             <i class="fa-solid fa-magnifying-glass text-black"></i>
         </button>
     </div>
 </nav>
-<section class="banner mt-9">
+<section class="banner relative mt-9 container mx-auto">
     <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="/images/banner1.png" class="w-full" />
@@ -82,7 +83,7 @@ font-family: 'Lato', sans-serif;
           </div>
         </div>
       </div>
-    <div class="flex-col my-10 mx-40 text-center space-y-5 text-white relative	bottom-80 ">
+    <div class="flex-col my-10 mx-40 text-center space-y-5 text-white absolute	bottom-10 left-40 ">
         <h1 class="text-7xl font-extrabold">Exotic tastes at your<br> doorstep</h1>
         <p>We supply highly quality organic products</p>
         <button class="bg-orange-400 rounded-lg text-xl	font-extrabold p-5">shop now</button>
@@ -90,31 +91,85 @@ font-family: 'Lato', sans-serif;
 </section>
     </header>
     <main>
+<section class="my-8">
+<div class="flex justify-around">
+  <div class="space-y-6">
+    <h2 class="text-5xl	font-extrabold	">
+      Deal of the day
+    </h2>
+    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+    <div>
+      <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:15;"></span>
+          </span>
+          days
+        </div> 
+        <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:10;"></span>
+          </span>
+          hours
+        </div> 
+        <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:24;"></span>
+          </span>
+          min
+        </div> 
+        <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:42;"></span>
+          </span>
+          sec
+        </div>
+      </div>
+    </div>
+</div>
+<div class="my-10 flex justify-around">
+<div class="space-y-3 rounded-lg text-center">
+  <img src="images/fruit6.png" alt=""><h2 class="text-2xl font-bold	">12.90$ - 18.85$</h2><p>Apples</p><div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div><p class="text-orange-500	">Details</p>
+</div>
+<div class="space-y-3 rounded-lg text-center">
+  <img src="images/fruit7.png" alt=""><h2 class="text-2xl font-bold	">12.90$ - 18.85$</h2><p>Apples</p><div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div><p class="text-orange-500	">Details</p>
+</div>
+<div class="space-y-3 rounded-lg text-center">
+  <img src="images/fruit8.png" alt=""><h2 class="text-2xl font-bold	">12.90$ - 18.85$</h2><p>Apples</p><div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div><p class="text-orange-500	">Details</p>
+</div>
+<div class="space-y-3 rounded-lg text-center">
+  <img src="images/fruit9.png" alt=""><h2 class="text-2xl font-bold	">12.90$ - 18.85$</h2><p>Apples</p><div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div><p class="text-orange-500	">Details</p>
+</div>
 
+
+</div>
+</section>
     </main>
-    <footer class="bg-black	text-white p-20 space-y-7">
-<div class="flex justify-center space-x-3">
-    <img src="images/logo.png" alt="">
-    <h1 class="text-5xl	font-bold	">Fruit Burst</h1>
-</div>
-<div>
-    <ul class="flex justify-center space-x-5">
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Shop</li>
-    <li>All Fruits</li>
-    <li>support</li>
-    <li>My account</li>
-</ul>
-</div>
-<div class="flex  space-x-5 justify-center ">
-    <img src="images/apple 1.svg" alt="">
-    <img src="images/facebook 1.svg" alt="">
-    <img src="images/instagram 1.svg" alt="">
-    <img src="images/Group 49 (1).svg" alt="">
-  <img src="images/linkedin 1.svg" alt="">
-    <img src="images/twitter 1.svg" alt="">
-</div>
-    </footer>
+    
 </body>
 </html>
